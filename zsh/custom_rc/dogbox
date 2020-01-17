@@ -13,7 +13,7 @@ export DD_ENV=dev
 export DOGWEB_DEFAULT_CONFIG_PATH=$HOME/dogweb/development.ini
 export KAFKA_SHARDING_DEFAULT_CONFIG_PATH=/home/vagrant/dogweb/etc/conf.d/kafka_sharding.toml
 
-eval "$(gimme 1.13.3)"
+eval "$(gimme 1.13.6)"
 
 # Aliases
 alias supe="supervisorctl"
