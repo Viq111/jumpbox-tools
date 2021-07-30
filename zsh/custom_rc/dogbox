@@ -12,8 +12,9 @@ export _Z_DATA=$HOME/.user-config/.z
 export DD_ENV=dev
 export DOGWEB_DEFAULT_CONFIG_PATH=$HOME/dogweb/development.ini
 export KAFKA_SHARDING_DEFAULT_CONFIG_PATH=/home/vagrant/dogweb/etc/conf.d/kafka_sharding.toml
+export GO111MODULE=auto
 
-eval "$(gimme 1.15.11)"
+eval "$(gimme 1.16.5)"
 
 # Aliases
 alias supe="supervisorctl"
