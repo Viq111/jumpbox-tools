@@ -20,7 +20,7 @@ if [[ $(hostname) == "dogbox" ]]
 then
     source ~/.jumpbox-tools/zsh/custom_rc/dogbox
 fi
-if [[ $(hostname) == *".local" ]]
+if [[ $(hostname) == "COMP-"* ]]
 then
     source ~/.jumpbox-tools/zsh/custom_rc/local
 fi
