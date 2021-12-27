@@ -17,3 +17,5 @@ pymod() {
 pyver() {
     pip show $1|egrep ^Version
 }
+
+alias k=kubectl
