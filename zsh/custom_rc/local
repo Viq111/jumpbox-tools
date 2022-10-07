@@ -6,7 +6,7 @@ export PATH=$PATH:$GOBIN
 export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
 
 # PS1 config
-source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+source "/opt/homebrew/Cellar/kube-ps1/0.7.0/share/kube-ps1.sh"
 KUBE_PS1_NS_ENABLE=false
 KUBE_PS1_SYMBOL_ENABLE=false
 PROMPT='%{$C_RESET%}$(get_hostname):%{$C_DEFAULT%}%~%{$C_RESET%} %{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status)%{$C_RESET%}$(kube_ps1)%{$C_PROMPT%}ᐅ%{$C_RESET%} '
