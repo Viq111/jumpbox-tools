@@ -19,3 +19,4 @@ pyver() {
 }
 
 alias k=kubectl
+alias edit=subl
